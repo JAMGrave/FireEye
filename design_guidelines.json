@@ -1,0 +1,160 @@
+{
+  "identity": {
+    "name": "FireEye",
+    "tagline": "Deteção Precoce. Resposta Imediata.",
+    "mission": "Proteger a floresta portuguesa através de tecnologia de ponta, inteligência artificial e vigilância autónoma.",
+    "tone": "Institucional, Tecnológico, Urgente, Confiável, Futurista",
+    "language": "pt-PT",
+    "theme": "dark"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Outfit, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight leading-none",
+      "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body": "text-base md:text-lg leading-relaxed text-slate-300",
+      "caption": "text-sm font-mono text-slate-500 uppercase tracking-widest"
+    }
+  },
+  "colors": {
+    "palette": {
+      "background": {
+        "default": "#050505",
+        "paper": "#0A0A0A",
+        "subtle": "#121212"
+      },
+      "primary": {
+        "main": "#FF4500",
+        "light": "#FF6B00",
+        "dark": "#CC3700",
+        "glow": "0 0 20px rgba(255, 69, 0, 0.5)"
+      },
+      "secondary": {
+        "main": "#00A3FF",
+        "light": "#33B5FF",
+        "dark": "#0066CC",
+        "glow": "0 0 20px rgba(0, 163, 255, 0.5)"
+      },
+      "text": {
+        "primary": "#FFFFFF",
+        "secondary": "#94A3B8",
+        "muted": "#475569"
+      },
+      "status": {
+        "success": "#10B981",
+        "warning": "#F59E0B",
+        "error": "#EF4444"
+      }
+    },
+    "gradients": {
+      "fire": "linear-gradient(135deg, #FF4500 0%, #FF6B00 100%)",
+      "tech": "linear-gradient(135deg, #0066CC 0%, #00A3FF 100%)",
+      "glass": "linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%)",
+      "dark_overlay": "linear-gradient(to bottom, rgba(5,5,5,0) 0%, #050505 100%)"
+    }
+  },
+  "layout": {
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "spacing": {
+      "section": "py-24 md:py-32",
+      "element": "gap-8 md:gap-12"
+    },
+    "grid": {
+      "bento": "grid grid-cols-1 md:grid-cols-3 gap-6",
+      "features": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary-main hover:bg-primary-light text-white font-medium px-8 py-3 rounded-md transition-all duration-300 shadow-[0_0_20px_rgba(255,69,0,0.3)] hover:shadow-[0_0_30px_rgba(255,69,0,0.5)] border border-transparent hover:border-white/20",
+      "secondary": "bg-transparent border border-white/20 hover:border-primary-main text-white hover:text-primary-main font-medium px-8 py-3 rounded-md transition-all duration-300 hover:bg-white/5",
+      "ghost": "text-slate-400 hover:text-white transition-colors"
+    },
+    "cards": {
+      "glass": "bg-white/5 backdrop-blur-md border border-white/10 rounded-xl p-8 hover:border-white/20 transition-all duration-300 group relative overflow-hidden",
+      "solid": "bg-background-paper border border-white/5 rounded-xl p-6"
+    },
+    "inputs": {
+      "default": "bg-white/5 border border-white/10 rounded-md px-4 py-3 text-white placeholder:text-slate-500 focus:outline-none focus:border-primary-main transition-colors w-full"
+    }
+  },
+  "motion": {
+    "instructions": "Use framer-motion for all scroll animations. Use 'whileInView' with 'once: true' for performance.",
+    "presets": {
+      "fadeUp": {
+        "initial": { "opacity": 0, "y": 40 },
+        "whileInView": { "opacity": 1, "y": 0 },
+        "viewport": { "once": true },
+        "transition": { "duration": 0.6, "ease": "easeOut" }
+      },
+      "stagger": {
+        "container": {
+          "hidden": { "opacity": 0 },
+          "show": {
+            "opacity": 1,
+            "transition": { "staggerChildren": 0.1 }
+          }
+        },
+        "item": {
+          "hidden": { "opacity": 0, "y": 20 },
+          "show": { "opacity": 1, "y": 0 }
+        }
+      }
+    }
+  },
+  "visual_enhancers": {
+    "particles": "Use tsparticles with 'ember' preset (orange particles floating up, fading out) for Hero section.",
+    "parallax": "Use slightly different scroll speeds for background layers vs content.",
+    "glows": "Use absolute positioned divs with large blur (blur-3xl) and low opacity (opacity-20) behind key elements to create ambient light."
+  },
+  "image_urls": {
+    "hero_bg": "https://images.unsplash.com/photo-1648464676756-1ca51d0c4688?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxmb3Jlc3QlMjBmaXJlJTIwZmxhbWVzJTIwbmlnaHR8ZW58MHx8fHwxNzcxOTM3NjMxfDA&ixlib=rb-4.1.0&q=85",
+    "thermal_tech": "https://images.pexels.com/photos/7859787/pexels-photo-7859787.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "drone_forest": "https://images.pexels.com/photos/27540652/pexels-photo-27540652.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "firefighters": "https://images.pexels.com/photos/20316405/pexels-photo-20316405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+    "team_working": "https://images.unsplash.com/photo-1758520145147-c30bc656f314?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwc3RhcnR1cCUyMHRlYW0lMjB3b3JraW5nJTIwZGFyayUyMG9mZmljZXxlbnwwfHx8fDE3NzE5Mzc2NTN8MA&ixlib=rb-4.1.0&q=85",
+    "logo": "https://customer-assets.emergentagent.com/job_forest-guard-1/artifacts/0d8csrbh_logotipo%20FireEye.png"
+  },
+  "sections": {
+    "hero": {
+      "layout": "Full height (min-h-screen), content centered vertically but left-aligned text.",
+      "visuals": "Dark overlay gradient on hero_bg image. Floating ember particles. Large animated text.",
+      "cta": "Primary button: 'Agendar Demonstração', Secondary: 'Ver Vídeo'."
+    },
+    "features_steps": {
+      "title": "Como Funciona o Sistema",
+      "style": "Vertical timeline or horizontal stepper with animated icons. Steps: 1. Monitorização Térmica, 2. Deteção AI, 3. Verificação Drone, 4. Alerta Imediato."
+    },
+    "impact_stats": {
+      "style": "Bento grid with large numbers (text-6xl) in gradient text (Fire Orange). Cards with glassmorphism.",
+      "data": ["-45% Tempo Resposta", "99% Precisão", "24/7 Vigilância", "0 Falsos Positivos"]
+    },
+    "partners": {
+      "style": "Monochrome logos in a marquee (react-fast-marquee) with low opacity (opacity-50), hover to full color."
+    },
+    "team": {
+      "style": "Grid of profile cards. Use 'team_working' as a section background or specific member photos if available (use placeholders if not)."
+    }
+  },
+  "instructions_to_main_agent": [
+    "INSTALL DEPENDENCIES: yarn add framer-motion lucide-react react-fast-marquee @tsparticles/react @tsparticles/slim clsx tailwind-merge",
+    "SETUP TAILWIND: Update tailwind.config.js to include the custom colors (primary, secondary, background-paper) and fonts.",
+    "FONTS: Add Outfit and JetBrains Mono from Google Fonts via import in index.css.",
+    "COMPONENT LIBRARY: Create a reusable 'Section' component that handles the max-width and padding.",
+    "NAVIGATION: Create a sticky navbar with glassmorphism (backdrop-blur-md bg-black/50).",
+    "IMAGES: Use the provided URLs. For the 'thermal_tech' image, apply a CSS filter (hue-rotate) if needed to match the orange theme, or use as is for realism.",
+    "TESTING: Add data-testid to all interactive elements."
+  ],
+  "universal_guidelines": [
+    "Do NOT use gradients for text readability issues. Ensure contrast > 4.5:1.",
+    "Do NOT center align long text blocks. Left align for readability.",
+    "Use 'gap-8' minimum for separating major elements.",
+    "Interactive elements must have a distinct hover state.",
+    "Theme is STRICTLY DARK MODE. Do not implement a light toggle unless requested (not requested here)."
+  ]
+}
