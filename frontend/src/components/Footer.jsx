@@ -49,7 +49,7 @@ export const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://facebook.com/FireEye"
+                href="https://www.facebook.com/profile.php?id=61588297911360"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2.5 rounded-lg bg-white/5 hover:bg-tech-main/20 text-slate-400 hover:text-tech-main transition-all duration-300"

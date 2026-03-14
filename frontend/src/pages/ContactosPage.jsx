@@ -319,7 +319,7 @@ export const ContactosPage = () => {
                   </a>
 
                   <a
-                    href="https://facebook.com/FireEye"
+                    href="https://www.facebook.com/profile.php?id=61588297911360"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-3 px-5 py-3 rounded-xl bg-white/5 border border-white/10 hover:border-tech-main hover:bg-tech-main/10 transition-all duration-300 group"
